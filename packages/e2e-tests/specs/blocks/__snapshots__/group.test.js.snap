@@ -2,16 +2,16 @@
 
 exports[`Group can be created using the block inserter 1`] = `
 "<!-- wp:group -->
-<div class=\\"wp-block-group\\"><!-- wp:paragraph -->
+<div class=\\"wp-block-group\\"><div class=\\"wp-block-group__inner-container\\"><!-- wp:paragraph -->
 <p>Group block</p>
-<!-- /wp:paragraph --></div>
+<!-- /wp:paragraph --></div></div>
 <!-- /wp:group -->"
 `;
 
 exports[`Group can be created using the slash inserter 1`] = `
 "<!-- wp:group -->
-<div class=\\"wp-block-group\\"><!-- wp:paragraph -->
+<div class=\\"wp-block-group\\"><div class=\\"wp-block-group__inner-container\\"><!-- wp:paragraph -->
 <p>Group block</p>
-<!-- /wp:paragraph --></div>
+<!-- /wp:paragraph --></div></div>
 <!-- /wp:group -->"
 `;
